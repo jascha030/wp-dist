@@ -14,7 +14,7 @@ build/
 # Library
 vendor/
 node_modules/
-tools/
+# tools/
 
 # Env
 .env
