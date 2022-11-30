@@ -10,5 +10,38 @@
     ],
     "minimum-stability": "stable",
     "config": {
+        "platform": {
+            "php": "8.0.2"
+        },
+        "platform-check": false,
+        "sort-packages": true,
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jascha030\\WpDist\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jascha030\\WpDist\\": "tests"
+        }
+    },
+    "require": {
+        "php": "~8.0||~8.1",
+        "symfony/console": "^6.0||^6.1",
+        "symfony/finder": "^6.0||^6.1",
+        "symfony/filesystem": "^6.0||^6.1"
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.8"
+    },
+    "extra": {
+        "bamarni-bin": {
+            "bin-links": false,
+            "forward-command": false
+        }
     }
 }

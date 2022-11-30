@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phive xmlns="https://phar.io/phive">
-  <phar name="composer" version="^2.4.4" installed="2.4.4" location="./tools/composer" copy="true"/>
-  <phar name="box" version="^4.2.0" installed="4.2.0" location="./tools/box" copy="true"/>
-  <phar name="php-scoper" version="^0.18.0-rc.0" installed="0.18.0-rc.0" location="./tools/php-scoper" copy="true"/>
+  <phar name="phpab" version="^1.27.1" installed="1.27.1" location="./tools/phpab" copy="true"/>
   <phar name="phpunit" version="^9.5.26" installed="9.5.26" location="./tools/phpunit" copy="true"/>
   <phar name="php-cs-fixer" version="^3.13.0" installed="3.13.0" location="./tools/php-cs-fixer" copy="true"/>
   <phar name="phpstan" version="^1.9.2" installed="1.9.2" location="./tools/phpstan" copy="true"/>
