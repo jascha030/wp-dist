@@ -1,0 +1,14 @@
+{
+    "name": "jascha030/wp-dist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jascha030",
+            "email": "contact@jaschavanaalst.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+    }
+}
